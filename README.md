@@ -226,3 +226,15 @@ conteudo.innerHTML = criarCard(
 }
 
 ```
+
+Aqui está uma explicação visual do projeto para os alunos:O projeto ensina um conceito muito importante no desenvolvimento web: **não repetir código**. Veja o que está acontecendo:
+
+**Estrutura do projeto:** três páginas HTML (`index.html`, `produtos.html`, `contato.html`) que representam as seções de um site simples.
+
+**O grande aprendizado está no `script.js`.** Em vez de escrever o menu de navegação manualmente em cada página, os alunos criam uma função `criarBotaoMenu()` que gera os botões automaticamente. O mesmo vale para `criarCard()`, que monta um bloco de conteúdo com título e texto. Essas funções são chamadas nas três páginas, mas escritas **uma única vez**.
+
+**O `style.css`** centraliza toda a aparência — botões, cards, layout — e também é compartilhado entre todas as páginas.
+
+Na prática, os alunos vão perceber que se precisarem mudar o visual do menu, alteram apenas um arquivo. Isso é o princípio do **DRY** (*Don't Repeat Yourself*), um dos pilares do desenvolvimento profissional.
+
+> Clique nos blocos do diagrama para explorar cada parte do projeto!
